@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    padding: 100px 15px;
+    background-color: #f0f2f5;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column
+}
+.facebook-login-body{
+    max-width:1000px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.facebook-login-body .text{
+    margin-bottom:90px;
+}
+.facebook-login-body h1{
+    font-size:4rem;
+    color:#1877f2;
+    margin-bottom:10px;
+}
+.facebook-login-body p{
+    font-size: 1.75rem;
+    white-space: nowrap;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius:8px;
+    padding:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width:400px;
+    width:100%;
+}
+form input{
+    width:100%;
+    height:55px;
+    border:1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom:15px;
+    font-size:1rem;
+    padding: 0 14px;
+}
+form input:focus {
+    outline:none;
+    border-color:#1877f2;
+}
+.link {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.link .login{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background-color: #1877f2;
+    padding: 15px 0;
+    border-radius: 6px;
+    color:#fff;
+    font-size:1.25rem;
+    font-weight:600;
+}
+.link .login:hover{
+    background-color:#0d65d9;
+}
+form a {
+    text-decoration: none;
+}
+.link .forgot{
+    color:#1877f2;
+    font-size:0.875rem;
+}
+.link .forgot:hover{
+    text-decoration: underline;
+}
+hr{
+    border:none;
+    height:1px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.button{
+    margin-top:25px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.button a{
+    padding: 15px 20px;
+    background-color: #42b72a;
+    border-radius: 6px;
+    color:#fff;
+    font-size:1.063rem;
+    font-weight:600;
+}
+.button a:hover{
+    background-color: #3ba626;
+}
+.more-info {
+    width:80%;
+    padding-left:630px;
+    height:200px;
+    padding-top:40px;
+    color:#757575;
+}
+.facebook-login-footer{
+    width:100%;
+    background-color: #fff;
+    padding-left:200px;
+    padding-top:40px;
+    height:400px;
+    
+}
+.footer-1{
+    text-align:left;
+    word-spacing: 5px;
+    font-size:14px;
+    color:#757575;
+}
+.footer-2{
+    text-align:left;
+    word-spacing: 15px;
+    font-size:14px;
+    color:#757575;
+}
